@@ -1,0 +1,32 @@
+.main {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.Logo {
+    width: 50%;
+    color: #fff;
+}
+
+.navigation {
+    display: flex;
+    justify-content: end;
+    width: 50%;
+    gap: 0px 20px;
+    margin-right: 15px;
+}
+
+.nav_list {
+    text-decoration: none;
+    list-style: none;
+
+    & a {
+        color: #264CC1;
+    }
+    & a:hover {
+        color: #5050de;
+        text-decoration: underline;
+    }
+
+}
